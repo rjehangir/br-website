@@ -1,0 +1,10 @@
+.livecontainer {
+	background: rgb(255,255,255);
+	color: black;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+iframe {
+	border: none;
+}

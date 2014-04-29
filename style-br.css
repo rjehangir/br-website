@@ -1,0 +1,311 @@
+@font-face {
+  font-family: 'np_naipol_b';
+  src: url('fonts/np naipol all in one_b.eot');
+  src: url('fonts/np naipol all in one_b.eot?#iefix') format('embedded-opentype'),
+       url('fonts/np naipol all in one_b.woff') format('woff'),
+       url('fonts/np naipol all in one_b.ttf') format('truetype'),
+       url('fonts/np naipol all in one_b.svg#fp-20698') format('svg');
+}
+
+body {
+  /*padding-top: 50px;*/
+}
+
+.oceanbackground {
+	background: #1e78b9;
+    color: white;
+    background: url(images/underwater.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    margin-bottom: 0px;
+    background: url(images/underwater_jumbotron_dark_1.jpg) no-repeat center center;
+    background-position: 0% 25%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+	text-shadow: 3px 3px 3px #222222;
+}
+
+.jumbotron.h2 {
+	color: #ffffff;
+}
+
+.jumbotron-overhang-img {
+	margin-bottom:-150px;
+}
+
+.floatingbanner {
+	margin-top:150px;
+	margin-bottom:150px;
+	background: rgba(40,40,40,0.35);
+	color:white;
+	padding:20px;
+}
+
+/* Logo CSS */
+.img-br-logo {
+	width: 2.0em;
+	height: 2.0em;
+	margin: -0.5em 0.35em 0.0em 0.5em;
+}
+
+/*.toplogo {
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+	font-size: 1.5em;
+}*/
+
+.toplogo {
+    font-family: np_naipol_b, sans-serif;
+	font-size: 1.75em;
+	font-weight: 300;
+}
+
+.logo {
+	font-family: np_naipol_b, Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+	font-size: 1.1em;
+}
+
+.robotics {
+    color: rgb(255,255,255);
+}
+
+.blue {
+    color:rgb(103,152,208); /*rgb(39,168,255);*/
+}
+
+/* Main body */
+.top-headline {
+  padding: 40px 15px;
+  text-align: left;
+}
+
+div.contrast {
+  background: none repeat scroll 0% 0% rgba(39,168,255,.15);
+	
+  /*background-color: #444444;
+
+  background-image: -moz-linear-gradient(top, rgba(39,168,255,.15), rgba(39,168,255,.30));
+  background-image: -ms-linear-gradient(top, rgba(39,168,255,.15), rgba(39,168,255,.30));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(39,168,255,.15), to(rgba(39,168,255,.30)));
+  background-image: -webkit-linear-gradient(top, rgba(39,168,255,.15), rgba(39,168,255,.30));
+  background-image: -o-linear-gradient(top, rgba(39,168,255,.15), rgba(39,168,255,.30));
+  background-image: linear-gradient(top, rgba(39,168,255,.15), rgba(39,168,255,.30));
+  background-repeat: repeat-x;
+
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(39,168,255,.15)', endColorstr='rgba(39,168,255,.30)', GradientType=0);*/
+}
+
+.img-configuration-drawing {
+	max-width: 80%;
+	margin: 30px auto 30px auto;
+}
+
+.table-specifications {
+	max-width: 600px;
+	margin: 40px auto;
+}
+
+h1 {
+	font-family: 'Ubuntu',Helvetica,Arial,sans-serif;
+	color: rgb(98,119,140); /* Dark Blue */
+}
+
+h2 {
+	font-family: 'Roboto',Helvetica,Arial,sans-serif;
+	color: rgb(189,36,37); /* Dark Red */
+}
+
+h3 {
+	color: rgb(160,140,128); /* Dark Tan */
+}
+
+p {
+	font-family: 'Droid Serif',serif;
+}
+
+.img-grid {
+	max-width: 100%;
+	padding: 5px;
+}
+
+.the-future-quotes {
+    margin-bottom: 0px;
+    background: url(images/reef-wreck-jumbotron-1.png) no-repeat center center;
+    background-position: 0% 25%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+	text-shadow: 3px 3px 3px #222222;
+}
+
+.the-future-quotes h2 {
+	color:white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.more-about-us {
+    margin-bottom: 0px;
+    background: url(images/underwater_jumbotron_dark_1.jpg) no-repeat center center;
+    background-position: 0% 25%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+	text-shadow: 3px 3px 3px #222222;
+}
+
+/*.btn {
+	margin: 30px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	padding: 15px 1.5em;
+	letter-spacing: 0.07em;
+	line-height: 1.5em;
+	border-radius: 2em;
+	font-family:Avenir,Helvetica,Arial,sans-serif;
+}*/
+
+.bgcredit {
+	font-face: Avenir,Helvetica,Arial,sans-serif;
+	font-size:0.9em;
+}
+
+.bgcredit a {
+	color: inherit !important;
+}
+
+.footer {
+	background: none repeat scroll 0% 0% #222;
+	height: auto;
+	margin: 0px;
+	color:white;
+}
+
+.footer a {
+	font-weight: bold;
+}
+
+blockquote {
+	font-size: 1.5em;
+}
+
+blockquote footer {
+	color:white;
+}
+
+/* Timeline CSS */
+ul.events {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 10px 0;
+}
+
+ul.events li {
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    background: #eee;
+    border: 1px solid #ddd;
+    color: #707070;
+    font-size: 1.0em;
+    font-weight: bold;
+    margin-bottom: 6px;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+}
+
+ul.events li em {
+    color: #aaa;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+ul.intervals {
+    list-style-type: none;
+    padding: 0;
+    display: block;
+}
+
+/* The width depends on the number of intervals. For example 100 / 7 = 14.29% -- then subtract a little bit for room for the borders */
+ul.intervals li {
+    background: #fff url(/images/1x1_eee.gif) repeat-x left 10%;
+    border-right: 1px solid #ccc;
+    color: #999;
+    float: left;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    width: 10%;
+}
+
+ul.intervals li.first {
+    border-left: 1px solid #ccc;
+}
+
+ul.intervals li.past {
+	color:#BBB;
+	font-weight:bold;
+}
+
+ul.intervals li.future {
+	color:#666;
+	font-weight:bold;
+}
+
+.thumbnail{
+display:inline;
+background-color: transparent;
+position: relative;
+border: none;
+z-index: 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+z-index: 50;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: rgb(223,199,188);
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+visibility: visible;
+top: 0;
+left: 60px; /*position where enlarged image should offset horizontally */
+
+}
+
+/* About page styles */
+.img-about {
+	margin: 0 auto;
+	max-width: 250px;
+}
+
+.about-bio-container {
+	margin: 50px auto 50px auto;
+}
