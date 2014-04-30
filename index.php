@@ -50,7 +50,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><img src="images/br-logo-trans-blue-trans.png" class="img-br-logo"><span class="blue toplogo">Blue</span><span class="robotics toplogo">Robotics</span></a>
+          <a class="navbar-brand" href="#"><img src="images/br-logo-trans-blue-trans.png" class="img-br-logo logo-rotate"><span class="blue toplogo">Blue</span><span class="robotics toplogo">Robotics</span></a>
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
