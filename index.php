@@ -40,27 +40,29 @@
 
   <body class="oceanbackground">
   
-	<div class="navbar navbar-inverse navbar-static-top" style="min-width:350px" role="navigation">
+	<div class="navbar transparent navbar-inverse navbar-static-top" style="min-width:350px" role="navigation">
+	<div class="navbar-inner">
       <div class="container">
         <div class="navbar-header">
-          <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>-->
+          </button>
           <a class="navbar-brand" href="#"><img src="images/br-logo-trans-blue-trans.png" class="img-br-logo"><span class="blue toplogo">Blue</span><span class="robotics toplogo">Robotics</span></a>
         </div>
-        <!--<div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#background">Background</a></li>            
+            <!--<li class="active">--><li><a href="#">Home</a></li>
+            <li><a href="#background">Products</a></li>            
             <li><a href="#technology">Technology</a></li>            
             <li><a href="#about">About</a></li>
-			<li><a href="mailto:rusty@blue-robotics.com">Contact</a></li>                        
+			<li><a href="mailto:info@blue-robotics.com">Contact</a></li>                        
           </ul>
-        </div>--><!--/.nav-collapse -->
+        </div><!--/.nav-collapse -->
       </div>
+	 </div>
     </div>
 	
 	<!----------------------- START BODY ------------------------------>
