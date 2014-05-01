@@ -93,9 +93,9 @@ body {
     -webkit-transition-duration: 0.2s;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 0.2s;
-	animation-direction:reverse;
-	-webkit-animation-direction:reverse;
-	-moz-animation-direction:reverse;
+	transition-direction:reverse;
+	-webkit-transition-direction:reverse;
+	-moz-transition-direction:reverse;
 }
 .logo-rotate:hover {
     -webkit-animation-name: rotate; 
@@ -112,12 +112,12 @@ body {
 }
 @-webkit-keyframes rotate {
     from {-webkit-transform: rotate(0deg);}
-    to {-webkit-transform: rotate(360deg);}
+    to {-webkit-transform: rotate(359deg);}
 }
 
 @-moz-keyframes rotate {
     from {-moz-transform: rotate(0deg);}
-    to {-moz-transform: rotate(360deg);}
+    to {-moz-transform: rotate(359deg);}
 }
 
 .toplogo {
@@ -224,7 +224,7 @@ p {
 	color:white;*/
 	background-color: rgba(0,0,0,0.6);
 	border-color: rgba(255,255,255,0.9);
-	border-width: 2px 0px;
+	border-width: 2px 0px 0px 0px;
 	border-style: solid;
 }
 
